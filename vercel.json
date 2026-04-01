@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npm install",
+  "envPrefix": "EMAIL_,NODE_,PORT"
+}
