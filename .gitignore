@@ -8,6 +8,11 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# Wrangler/Cloudflare
+.wrangler/
+dist/
+wrangler-unsafe-cache
+
 # IDE
 .vscode/
 .idea/

@@ -1,0 +1,27 @@
+name = "rn-herbal-india"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+# Build configuration
+[build]
+command = "npm install"
+cwd = "./functions"
+main = "index.js"
+
+# Wrangler environment variables
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+# D1 Database binding (optional, for future use)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "rn-herbal"
+# database_id = "your-database-id"
+
+# KV namespace binding (optional, for caching)
+# [[kv_namespaces]]
+# binding = "KV"
+# id = "your-kv-id"
